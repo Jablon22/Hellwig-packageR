@@ -3,8 +3,20 @@
 An R package implementing **Hellwig's integral capacity method** for selecting the optimal subset of explanatory variables in econometric models.
 
 ## Installation
+
+Install the `remotes` package if you don't have it:
+```r
+install.packages("remotes")
+```
+
+Then install `hellwig` from GitHub:
 ```r
 remotes::install_github("Jablon22/Hellwig-packageR/hellwig")
+```
+
+Alternatively, using `devtools`:
+```r
+devtools::install_github("Jablon22/Hellwig-packageR/hellwig")
 ```
 
 ## Method
