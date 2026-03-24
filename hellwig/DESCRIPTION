@@ -1,11 +1,10 @@
 Package: hellwig
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Title: Hellwig's Method for Explanatory Variable Selection
+Version: 1.0.0
+Authors@R: person("Jakub", "Groblicki", email = "jakubgroblickif@gmail.com", role = c("aut", "cre"))
+Description: Implements Hellwig's integral capacity method for selecting
+    the optimal subset of explanatory variables in econometric models.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.0.0
+RoxygenNote: 7.3.3
